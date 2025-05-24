@@ -1,0 +1,231 @@
+{
+  // ==========================================
+  // 🎨 エディター基本設定
+  // ==========================================
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "MesloLGS NF, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.renderControlCharacters": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.renderLineHighlight": "all",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.wordWrap": "off",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.suppressSuggestions": true,
+
+  // ==========================================
+  // 🖥️ ターミナル設定
+  // ==========================================
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "MesloLGS NF, Monaco, 'Courier New', monospace",
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.env.linux": {},
+
+  // ==========================================
+  // 🌐 Emmet設定（HTML/CSS展開）
+  // ==========================================
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.variables": { "lang": "ja" },
+  "html.format.wrapLineLength": 0,
+
+  // ==========================================
+  // 🎛️ ワークベンチ（UI）設定
+  // ==========================================
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Cobalt2",
+
+  // ==========================================
+  // 💾 ファイル保存・管理設定
+  // ==========================================
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+
+  // ==========================================
+  // 🪟 ウィンドウ・表示設定
+  // ==========================================
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": 0,
+  "zenMode.hideActivityBar": false,
+  "diffEditor.renderSideBySide": true,
+  "explorer.confirmDelete": false,
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ==========================================
+  // 🤖 GitHub Copilot設定
+  // ==========================================
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.advanced": {},
+
+  // ==========================================
+  // 🎯 Cursor AI設定
+  // ==========================================
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+
+  // ==========================================
+  // 📝 スペルチェック設定
+  // ==========================================
+  "cSpell.userWords": [
+    "autoraise",
+    "myapp",
+    "pids",
+    "Postlab",
+    "unfloat",
+    "Webpacker",
+    "Zenn"
+  ],
+
+  // ==========================================
+  // 🔧 開発ツール設定
+  // ==========================================
+  "opa.dependency_paths.opa": "/Users/atsushi.sada/opa",
+  "opa.dependency_paths.regal": "/Users/atsushi.sada/regal",
+  "opa.languageServers": ["regal"],
+
+  // ==========================================
+  // 🔌 拡張機能設定
+  // ==========================================
+  "codeQL.telemetry.enableTelemetry": true,
+  "viraTheme.accent": "Cyan",
+  "genieai.enableConversationHistory": true,
+  "chatgpt.showAllModels": true,
+  "chatgpt.gpt3.apiBaseUrl": "https://api.openai.com/v1",
+  "git.openRepositoryInParentFolders": "never",
+  "application.shellEnvironmentResolutionTimeout": 60,
+
+  // ==========================================
+  // 🎨 テーマカスタマイズ
+  // ==========================================
+  "workbench.colorCustomizations": {
+    "[Vira*]": {
+      "toolbar.activeBackground": "#28BAE826",
+      "activityBarBadge.background": "#28BAE8",
+      "activityBar.activeBorder": "#28BAE8",
+      "activityBarTop.activeBorder": "#28BAE8",
+      "list.inactiveSelectionIconForeground": "#28BAE8",
+      "list.activeSelectionForeground": "#28BAE8",
+      "list.inactiveSelectionForeground": "#28BAE8",
+      "list.highlightForeground": "#28BAE8",
+      "sash.hoverBorder": "#28BAE880",
+      "list.activeSelectionIconForeground": "#28BAE8",
+      "scrollbarSlider.activeBackground": "#28BAE880",
+      "editorSuggestWidget.highlightForeground": "#28BAE8",
+      "textLink.foreground": "#28BAE8",
+      "progressBar.background": "#28BAE8",
+      "pickerGroup.foreground": "#28BAE8",
+      "tab.activeBorder": "#28BAE8",
+      "notificationLink.foreground": "#28BAE8",
+      "editorWidget.resizeBorder": "#28BAE8",
+      "editorWidget.border": "#28BAE8",
+      "settings.modifiedItemIndicator": "#28BAE8",
+      "settings.headerForeground": "#28BAE8",
+      "panelTitle.activeBorder": "#28BAE8",
+      "breadcrumb.activeSelectionForeground": "#28BAE8",
+      "menu.selectionForeground": "#28BAE8",
+      "menubar.selectionForeground": "#28BAE8",
+      "editor.findMatchBorder": "#28BAE8",
+      "selection.background": "#28BAE840",
+      "statusBarItem.remoteBackground": "#28BAE8",
+      "notebook.inactiveFocusedCellBorder": "#28BAE880",
+      "commandCenter.activeBorder": "#28BAE880"
+    }
+  },
+
+  // ==========================================
+  // 🤖 Cody AI設定
+  // ==========================================
+  "cody.chat.enabled": true,
+  "cody.autocomplete.enabled": true,
+  "cody.chat.preInstruction": "Please think thoughts in English. 出力は日本語で出力してください。",
+  "cody.autocomplete.languages": {
+    // プログラミング言語
+    "javascript": true,
+    "typescript": true,
+    "python": true,
+    "go": true,
+    "java": true,
+    "cpp": true,
+    "rust": true,
+    // インフラ・DevOps
+    "terraform": true,
+    "hcl": true,
+    "yaml": true,
+    "yml": true,
+    "json": true,
+    "dockerfile": true,
+    "shellscript": true,
+    "bash": true,
+    "zsh": true,
+    "*": true
+  },
+  "cody.commandCodeLenses": true,
+  "cody.inlineChat": true,
+  "cody.codeActions.enabled": true,
+  "cody.experimental.chatPredictions": true,
+  "cody.experimental.guardrails": true,
+
+  // ==========================================
+  // 📁 ファイルタイプ別設定
+  // ==========================================
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSaveMode": "file"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
